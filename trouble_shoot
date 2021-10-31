@@ -1,0 +1,9 @@
+에러 케이스 정리(설정부분)
+
+Unknown system variable 'query_cache_size'
+->  mysql 에서 version 6 -> 8.0.11로 수정
+-> 	<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.11</version>
+		</dependency>
