@@ -15,7 +15,7 @@ public class LoggingAspect {
 		System.out.println("@Before [ " + signatureString + " ] 메서드 실행 전처리 수행");		
 		for (Object arg : joinPoint.getArgs()) {
 			System.out.println("@Before [ " + signatureString + " ] 아규먼트 " + arg);			
-		}		
+		}		  
 	}
     @AfterReturning(pointcut="execution(public * myspring.user.service.*.*(..))", returning="ret")
 	public void afterReturning(JoinPoint joinPoint, Object ret) {
