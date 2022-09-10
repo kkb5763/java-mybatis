@@ -16,7 +16,7 @@ import myspring.user.vo.UserVO;
 
 //@Repository("userDao")
 public class UserDaoImplJDBC implements UserDao {
-	private JdbcTemplate jdbcTemplate;
+	private JdbcTemplate jdbcTemplate;   //Sample Branches 01 
 	
 	@Autowired
 	public void setDataSource(DataSource dataSource) {
