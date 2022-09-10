@@ -18,6 +18,7 @@ import myspring.user.vo.UserVO;
 public class UserDaoImplJDBC implements UserDao {
 	private JdbcTemplate jdbcTemplate;   //Sample Branches 01 -> 02
 	// token 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 
+	//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
 	@Autowired
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
