@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;   //test.git. 
 
 import myspring.user.vo.UserVO;
-
+//this is branches 02
 //@Repository("userDao")
 public class UserDaoImplJDBC implements UserDao {
 	private JdbcTemplate jdbcTemplate;   //Sample Branches 01 -> 02
