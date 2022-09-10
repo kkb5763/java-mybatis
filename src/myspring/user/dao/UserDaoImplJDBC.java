@@ -21,7 +21,7 @@ public class UserDaoImplJDBC implements UserDao {
 	@Autowired
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
-	}
+	}   
 
 	class UserMapper implements RowMapper<UserVO> {
 		public UserVO mapRow(ResultSet rs, int rowNum) throws SQLException {
