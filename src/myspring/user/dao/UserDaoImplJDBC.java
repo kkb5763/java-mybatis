@@ -19,7 +19,7 @@ public class UserDaoImplJDBC implements UserDao {
 	private JdbcTemplate jdbcTemplate;   //Sample Branches 01 -> 02
 	// token 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 
 	//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
-	//step.3
+	//step.3 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
 	@Autowired
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
