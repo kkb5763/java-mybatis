@@ -21,7 +21,7 @@ public class UserDaoImplJDBC implements UserDao {
 	//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
 	//step.3 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
 	@Autowired
-	public void setDataSource(DataSource dataSource) {
+	public void setDataSource(DataSource dataSource) {  //Sync 2022.09.25
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}   
 
